@@ -127,8 +127,8 @@ font-family: 'Montserrat';
     font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
-        font-size: 1.4rem;
-        line-height: 1.7rem;
+        font-size: 14px;
+        line-height: 17px;
         /* identical to box height */
     
     
@@ -137,7 +137,7 @@ font-family: 'Montserrat';
         color: #FFFFFF;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1400px) {
     .card {
         display: flex;
         margin: 17.5rem 42rem;
@@ -158,6 +158,11 @@ font-family: 'Montserrat';
     
     .card .btn {
         padding: 1.5rem 6.3rem;
+    }
+
+    .card .btn__text {
+        width: 8.5rem;
+        height: 1.7rem;
     }
 
     .card .card__price--container {
