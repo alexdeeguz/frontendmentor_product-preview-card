@@ -137,37 +137,6 @@ font-family: 'Montserrat';
         color: #FFFFFF;
 }
 
-@media screen and (min-width: 750px) {
-    .card {
-        display: flex;
-        margin: 5rem 7.5rem;
-        max-width: 144rem;
-        /* margin: 10.5rem 35rem; */
-    }
-
-    .card .card__image,
-    .card .card__content {
-        width: 30rem;
-    }
-
-    .card .card__image {
-        height: 45rem;
-        background-image: url(./images/image-product-desktop.jpg);
-    }
-
-    .card .card__content {
-        padding: 3.2rem;
-    }
-
-    .card .btn {
-        padding: 1.5rem 6.3rem;
-    }
-
-    .card .card__price--container {
-        margin-bottom: 3rem;
-    }
-}
-
 @media screen and (min-width: 1440px) {
     .card {
         display: flex;
