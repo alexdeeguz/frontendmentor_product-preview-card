@@ -114,7 +114,7 @@ font-family: 'Montserrat';
     background-color: #3D8168;
     /* border: 1px solid red; */
     color: white;
-    filter: drop-shadow(0px .4rem .4rem rgba(0, 0, 0, 0.25));
+    /* filter: drop-shadow(0px .4rem .4rem rgba(0, 0, 0, 0.25)); */
     width: 100%;
     padding: 1.5rem 9.2rem;
     display: flex;
@@ -159,15 +159,10 @@ font-family: 'Montserrat';
     .card .card__heading {
         margin-bottom: 2.4rem;
     }
-    
-    /* .card .btn {
-        padding: 1.5rem 6.3rem;
-    } */
 
-    /* .card .btn__text {
-        width: 8.5rem;
-        height: 1.7rem;
-    } */
+    .btn svg {
+        margin-right: 1.15rem;
+    }
 
     .card .card__price--container {
         margin-bottom: 3rem;
