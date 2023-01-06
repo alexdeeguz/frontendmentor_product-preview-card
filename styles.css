@@ -130,17 +130,19 @@ font-family: 'Montserrat';
         font-size: 14px;
         line-height: 17px;
         /* identical to box height */
-    
+            width: 8.5rem;
+                height: 1.7rem;
     
         /* Pure White */
     
         color: #FFFFFF;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (max-width: 2000px) {
     .card {
         display: flex;
         margin: 17.5rem 42rem;
+        max-width: 144rem;
     }
 
     .card .card__image, .card .card__content {
